@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>爱过的地方</title>
+	<style>
+		/* 背景 */
+		body {
+			background-color: #f6f6f6;
+		}
+
+		/* 左侧圆形 */
+		.cd-left {
+			position: absolute;
+			top: 50%;
+			left: 5%;
+			transform: translateY(-50%);
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			background-image: url("img/cd_img.jpg");
+			background-size: cover;
+			box-shadow: 2px 2px 8px rgba(0,0,0,.2);
+		}
+
+		/* 中间圆形 */
+		.cd-middle {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 240px;
+			height: 240px;
+			border-radius: 50%;
+			background-image: url("img/yinfu.jpg");
+			background-size: cover;
+			box-shadow: 2px 2px 8px rgba(0,0,0,.2);
+		}
+
+		/* 右侧圆形 */
+		.cd-right {
+			position: absolute;
+			top: 50%;
+			right: 5%;
+			transform: translateY(-50%);
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			background-color: #fff;
+			box-shadow: 2px 2px 8px rgba(0,0,0,.2);
+		}
+
+		/* 标题 */
+		.cd-right h1 {
+			margin: 20px 0 10px 0;
+			font-size: 24px;
+			font-weight: normal;
+			text-align: center;
+			color: #333;
+			text-shadow: 2px 2px 8px rgba(0,0,0,.2);
+		}
+
+		/* 歌词 */
+		.cd-right p {
+			margin: 0 20px 20px 20px;
+			font-size: 16px;
+			line-height: 1.5;
+			text-align: center;
+			color: #666;
+			text-shadow: 2px 2px 8px rgba(0,0,0,.2);
+		}
+	</style>
+</head>
+<body>
+	<div class="cd-left"></div>
+	<div class="cd-middle"></div>
+	<div class="cd-right">
+		<h1>爱过的地方</h1>
+		<p>爱过的地方 只剩回忆的箱子</p>
+		<p>我用它装满所有的孤寂</p>
+	</div>
+</body>
+</html>
